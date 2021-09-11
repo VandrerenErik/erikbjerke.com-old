@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Erik Bjerke</title>
+    </head>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link href="/assets/styles/main.css?ver=1" rel="stylesheet">
+    <body
+        ondragstart="window.event.returnValue=false"
+        oncontextmenu="window.event.returnValue=false"
+        onselectstart="event.returnValue=false"
+    >
+        <canvas id="canvas"></canvas>
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <div id="holder">
+            <div id="title">Erik Bjerke</div>
+            <div id="links">
+                <a href="https://cv.erikbjerke.com/">CV</a>
+                -
+                <a href="https://blog.erikbjerke.com/">Blog</a>
+                -
+                <a href="https://gitlab.com/VandrerenErik">GitLab</a>
+                -
+                <a href="https://github.com/VandrerenErik">GitHub</a>
+            </div>
+            <a id="toggle_audio" onClick="togglePlay()">Play Music</a>
+        </div>
+        <script src="./assets/js/stats.js?ver=1"></script>
+        <script src="./assets/js/animation.js?ver=1"></script>
+        <audio loop id="audio">
+            <source src="./assets/audio/The_Animal_Inside_by_Sinyells.ogg" type="audio/ogg">
+            <source src="./assets/audio/The_Animal_Inside_by_Sinyells.mp3" type="audio/mpeg">
+        </audio>
+        <script src="./assets/js/audio.js?ver=1"></script>
+        <!-- Cloudflare Web Analytics -->
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "229a1bfa00ff41ef818547ad3039d023"}'></script>
+        <!-- End Cloudflare Web Analytics -->
+    </body>
+</html>
